@@ -19,20 +19,20 @@ Pydantic
 Swagger UI
 
 ## Setup Instructions
-1️⃣ Create Virtual Environment
+1️. Create Virtual Environment
 
 python -m venv venv
 
-2️⃣ Activate Environment
+2️. Activate Environment
 
 Windows:
 
 venv\Scripts\activate
 
-3️⃣ Install Dependencies
+3️. Install Dependencies
 pip install fastapi uvicorn
 
-4️⃣ Run FastAPI Server
+4️. Run FastAPI Server
 uvicorn main:app --reload
 
 Server will run at:
@@ -45,7 +45,7 @@ http://127.0.0.1:8000/docs
 
 🔹 Implemented API Endpoints
 
-1️⃣ Filter Products by Price
+1️. Filter Products by Price
 GET /products/filter
 
 Allows filtering products using query parameters.
@@ -54,12 +54,12 @@ Example:
 
 /products/filter?min_price=400
 
-2️⃣ Get Product Price
+2️. Get Product Price
 GET /products/{product_id}/price
 
 Returns only the name and price of the selected product.
 
-3️⃣ Submit Customer Feedback
+3️. Submit Customer Feedback
 POST /feedback
 
 Accepts customer feedback using a Pydantic model with validation.
@@ -74,7 +74,7 @@ rating (1–5)
 
 comment (optional)
 
-4️⃣ Product Summary Dashboard
+4️. Product Summary Dashboard
 GET /products/summary
 
 Returns store analytics including:
@@ -91,7 +91,7 @@ Most expensive product
 
 Available categories
 
-5️⃣ Bulk Order Processing
+5️. Bulk Order Processing
 POST /orders/bulk
 
 Allows companies to place bulk orders.
@@ -106,7 +106,7 @@ Failed items reporting
 
 Grand total calculation
 
-⭐ Bonus Feature – Order Status Tracking
+** Bonus Feature – Order Status Tracking
 
 Additional endpoints for managing order status.
 
