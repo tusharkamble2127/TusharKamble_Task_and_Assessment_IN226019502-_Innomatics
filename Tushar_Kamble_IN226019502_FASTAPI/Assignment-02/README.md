@@ -18,16 +18,6 @@ Pydantic
 
 Swagger UI
 
-## Project Structure
-INTERNID_FASTAPI
-└── ASSIGNMENT 2
-    ├── main.py
-    ├── Q1_Output.png
-    ├── Q2_Output.png
-    ├── Q3_Output.png
-    ├── Q4_Output.png
-    ├── Q5_Output.png
-    └── Bonus_Output.png
 ## Setup Instructions
 1️⃣ Create Virtual Environment
 
