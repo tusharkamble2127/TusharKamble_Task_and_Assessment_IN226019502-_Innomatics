@@ -30,6 +30,7 @@ INTERNID_FASTAPI
     └── Bonus_Output.png
 ## Setup Instructions
 1️⃣ Create Virtual Environment
+
 python -m venv venv
 
 2️⃣ Activate Environment
@@ -51,6 +52,7 @@ http://127.0.0.1:8000
 Swagger Documentation:
 
 http://127.0.0.1:8000/docs
+
 🔹 Implemented API Endpoints
 
 1️⃣ Filter Products by Price
