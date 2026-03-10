@@ -37,6 +37,7 @@ python -m venv venv
 Windows:
 
 venv\Scripts\activate
+
 3️⃣ Install Dependencies
 pip install fastapi uvicorn
 
