@@ -8,15 +8,15 @@ The APIs simulate a simple E-commerce backend system with product management and
 
 ## Technologies Used
 
-Python 3
-
-FastAPI
-
-Uvicorn
-
-Pydantic
-
-Swagger UI
+    Python 3
+    
+    FastAPI
+    
+    Uvicorn
+    
+    Pydantic
+    
+    Swagger UI
 
 ## Setup Instructions
 1️. Create Virtual Environment
