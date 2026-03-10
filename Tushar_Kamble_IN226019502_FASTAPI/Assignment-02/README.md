@@ -31,6 +31,7 @@ INTERNID_FASTAPI
 ## Setup Instructions
 1️⃣ Create Virtual Environment
 python -m venv venv
+
 2️⃣ Activate Environment
 
 Windows:
@@ -38,6 +39,7 @@ Windows:
 venv\Scripts\activate
 3️⃣ Install Dependencies
 pip install fastapi uvicorn
+
 4️⃣ Run FastAPI Server
 uvicorn main:app --reload
 
@@ -49,6 +51,7 @@ Swagger Documentation:
 
 http://127.0.0.1:8000/docs
 🔹 Implemented API Endpoints
+
 1️⃣ Filter Products by Price
 GET /products/filter
 
@@ -57,6 +60,7 @@ Allows filtering products using query parameters.
 Example:
 
 /products/filter?min_price=400
+
 2️⃣ Get Product Price
 GET /products/{product_id}/price
 
